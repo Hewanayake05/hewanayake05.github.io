@@ -57,7 +57,8 @@ Travel & Nature: Exploring biodiversity and different ecosystems.
 
 [HS25100621 HEWANAYAKE  S S  (Resume).pdf](https://github.com/user-attachments/files/22582841/HS25100621.HEWANAYAKE.S.S.Resume.pdf)
 
-Contact Me
+**Contact Me**
+
 I am always open to discussing new opportunities and connecting with like-minded individuals.
 
 Email: HS25100621@my.sliit.lk
