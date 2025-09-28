@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seyara Hewanayake - Biotechnology Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50, #4a6572);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 1rem;
+        }
+
+        section {
+            padding: 3rem 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #4a6572;
+        }
+
+        .about-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            margin-top: 1rem;
+        }
+
+        .education-item, .experience-item, .project-item {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .education-item h3, .experience-item h3, .project-item h3 {
+            color: #4a6572;
+            margin-bottom: 0.5rem;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-category {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill-category h3 {
+            color: #4a6572;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .skill-category ul {
+            list-style-type: none;
+        }
+
+        .skill-category li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.2rem;
+            position: relative;
+        }
+
+        .skill-category li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #4a6572;
+        }
+
+        .hobbies-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .hobby {
+            background: white;
+            padding: 1rem 1.5rem;
+            border-radius: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+        .contact-info a {
+            color: #4a6572;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .skills-container {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="profile-picture.jpg" alt="Seyara Hewanayake" class="profile-img">
+            <h1>Sethumnie Seyara Hewanayake</h1>
+            <p class="subtitle">BSc (Hons) Biotechnology Student</p>
+            <p class="subtitle">Sri Lanka Institute of Information Technology (SLIIT)</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    I am deeply fascinated by the intersection of biology and technology, and I am driven to contribute to advancements in healthcare, agriculture, and environmental science. My strong academic foundation in the biological sciences, demonstrated by my A/L and O/L results, has equipped me with the analytical and problem-solving skills essential for this dynamic field.
+                </p>
+                <p class="about-text">
+                    I am a highly motivated learner, fluent in English, and constantly seeking to expand my knowledge beyond the classroom. This e-portfolio showcases my academic journey, skills, and projects as I build a career in biotechnology.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Educational Qualifications</h2>
+            
+            <div class="education-item">
+                <h3>BSc (Hons) in Biotechnology</h3>
+                <p class="date">2025 onwards - Present</p>
+                <p>Sri Lanka Institute of Information Technology (SLIIT)</p>
+                <p>Currently building a strong foundation in core biological concepts and introductory IT skills</p>
+            </div>
+            
+            <div class="education-item">
+                <h3>GCE Advanced Levels (Biological Science Stream)</h3>
+                <p class="date">2023 – 2024</p>
+                <p>Biology (C) | Chemistry (S) | Physics (S) | General English (A)</p>
+            </div>
+            
+            <div class="education-item">
+                <h3>GCE Ordinary Levels</h3>
+                <p class="date">2020 – 2021</p>
+                <p>8 A passes, 1 B pass for Tamil language</p>
+                <p>Maintained top academic performances at school level</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            
+            <div class="experience-item">
+                <h3>Undergraduate at Sri Lanka Institute of Information Technology (SLIIT)</h3>
+                <p class="date">Since May 2025</p>
+                <ul>
+                    <li>Assisted in microbiological testing and analysis, including microbial culturing, identification, and classification of bacteria, fungi, and other microorganisms</li>
+                    <li>Maintained accurate laboratory records and documentation ensuring compliance with safety protocols and good laboratory practices</li>
+                    <li>Gained hands-on experience with lab equipment such as pipetting, spectrophotometers, and microscopes, enhancing practical biotechnology skills</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            
+            <div class="project-item">
+                <h3>Roots of Tomorrow 25 | Environmental Biotechnology Initiative</h3>
+                <p class="date">October 2024</p>
+                <ul>
+                    <li>As part of the pioneering 11th batch of Biotechnology students at SLIIT, I participated in a tree planting project in Wakwella, Galle</li>
+                    <li>This initiative combined environmental conservation with practical fieldwork, emphasizing the role of biotechnology in ecosystem restoration and sustainable practices</li>
+                    <li>Gained hands-on experience in community engagement and understanding the importance of biodiversity for environmental health</li>
+                </ul>
+            </div>
+            
+            <div class="project-item">
+                <h3>SC1172 - Introduction to IT E-Portfolio</h3>
+                <p class="date">Current</p>
+                <ul>
+                    <li>Designed and developed a personal portfolio website using GitHub Pages, HTML, and Markdown</li>
+                    <li>This project enhanced my technical skills in web publishing and digital literacy, showcasing the intersection of IT and scientific presentation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills & Competencies</h2>
+            
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Laboratory & Technical Skills</h3>
+                    <ul>
+                        <li>Microbial culturing, identification, and classification</li>
+                        <li>Pipetting, spectrophotometers, microscopes</li>
+                        <li>Safety protocols and good laboratory practices</li>
+                        <li>GitHub, HTML, Microsoft Office Suite</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Analytical & Research Skills</h3>
+                    <ul>
+                        <li>Scientific Data Interpretation</li>
+                        <li>Problem-Solving and Critical Thinking</li>
+                        <li>Research Methodology</li>
+                        <li>Attention to Detail</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Personal Competencies</h3>
+                    <ul>
+                        <li>Fluent English Communication</li>
+                        <li>Team Collaboration</li>
+                        <li>Time Management and Organization</li>
+                        <li>Adaptability and Quick Learning</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English (Fluent)</li>
+                        <li>Sinhala (Native)</li>
+                        <li>Basic Tamil</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <div class="container">
+            <h2>Hobbies & Interests</h2>
+            <div class="hobbies-list">
+                <div class="hobby">Scientific Reading</div>
+                <div class="hobby">Bioinformatics</div>
+                <div class="hobby">Listening to Music</div>
+                <div class="hobby">Singing</div>
+                <div class="hobby">Exploring Nature</div>
+                <div class="hobby">Travel</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>I am always open to discussing new opportunities and connecting with like-minded individuals.</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:HS25100621@my.sliit.lk">HS25100621@my.sliit.lk</a></p>
+                <p><strong>Phone:</strong> +94 714906632</p>
+                <p><strong>Address:</strong> 32/c Suduwella rd, Kaludawala, Panadura</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Seyara Hewanayake. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
